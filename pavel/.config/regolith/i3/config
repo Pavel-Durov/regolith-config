@@ -339,3 +339,6 @@ exec --no-startup-id /usr/bin/unclutter -b
 
 # Refresh wallpaper on screen resolution change
 exec --no-startup-id /usr/bin/xeventbind resolution /usr/bin/wallpaper-refresh
+
+#autostart redshift
+exec --no-startup-id redshift-gtk
